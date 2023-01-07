@@ -36,6 +36,13 @@ p{
   font-size: 1.6em;
 }
 
+.page4_image{
+  width: 32.5em;
+  height: 20em;
+  float: left; 
+  padding-right: 2em;
+}
+
 .page2_image{
   float: left;
   padding-right: 2em;
@@ -81,6 +88,48 @@ padding-right: 1em;
   .page2_container{
     padding-top: 2em;
   }
+
+  .page6_pic_large_text_right{
+    width: 17em;
+    float: left;
+    padding-right: 1em;
+  }
+
+  .pic_text_right{
+    width: 6.7em;
+    float: left;
+    padding-right: 1em;
+  }
+
+  .pic_text_right1{
+    width: 10em;
+    height: 5em;
+    float: left;
+    padding-right: 1em;
+  }
+
+  .lista:hover{
+    border-radius: 5%;
+    background-color:aquamarine;
+    text-decoration: none;
+  }
+  .listb:hover{
+    color:darkblue;
+    text-decoration: none;
+  }
+
+  .videoabc1{
+    display:inline-block; 
+    padding-left: 5%;
+  }
+
+.videoabc{
+  float: right; 
+  padding-right: 5%;
+}
+  
+
+
 /*Extra small devices -  phones 600px and down*/
 
 @media only screen and (max-width: 700px) {
@@ -104,12 +153,12 @@ padding-right: 1em;
   }
 
 .pic3{
-  padding: 2%;
   width: 95%;
+  padding: 5%;
 }
 
   .pic4{
-    padding: 2%;
+    padding: 5%;
     width: 95%;
   }
 
@@ -122,8 +171,8 @@ padding-right: 1em;
   .page3_pic{
     width: 97%;
   }
-  
-   .page3_pic1{
+
+  .page3_pic1{
     width: 97%;
   }
 
@@ -132,18 +181,23 @@ padding-right: 1em;
   }
 
   .page4_image{
-    width: 108%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  
-   .videoa{
-    width: 95%;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
+  .videoa{
+    width: 94%;
+  }
+
+  .videob{
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 94%;
+  }
 
   .page5_image{
-    width: 100%;
+    width: 50%;
     padding-right: 0px;
     padding-bottom: 2%;
   }
@@ -157,6 +211,51 @@ padding-right: 1em;
   .page5_2{
     padding-top: 1.5em;
   }
+
+  .page6_pic{
+    width: 99%;
+  }
+
+  .pic_text_right{
+    width: 6.7em;
+    float: none;
+    display: block;
+    padding-right: 1em;
+  }
+
+  .pic_text_right1{
+    width: 10em;
+    height: 5em;
+    float: none;
+    display: block;
+    padding-right: 1em;
+  }
+
+  .page6_pic_large_text_right{
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+.un_ulign{
+  text-align: left;
+}
+
+.videoabc1{
+  display:block; 
+  padding-left: 0%;
+  text-align: center;
+}
+
+.videoabc{
+float:none; 
+padding-right: 0%;
+text-align: center;
+}
+
+.videoabc2{
+  text-align: center;
+}
+
 }
 
 
